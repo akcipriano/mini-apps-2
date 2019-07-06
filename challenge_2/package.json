@@ -1,0 +1,25 @@
+{
+  "name": "challenge_2",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Charting Mini App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akcipriano/rpt12-mini-apps-2.git"
+  },
+  "author": "Alyssa Cipriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akcipriano/rpt12-mini-apps-2/issues"
+  },
+  "homepage": "https://github.com/akcipriano/rpt12-mini-apps-2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
