@@ -1,0 +1,15 @@
+.pin {
+  height: 50px;
+  width: 50px;
+  background-color:	#FF8C00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle {
+  display: inline;
+}
+
+.set {
+  text-align: center;
+}

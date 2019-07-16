@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BowlingPin from './components/bowling-pin.jsx';
+import NumberOfPinsSelection from './components/number-of-pins.jsx'
 
-class Bowling extends React.Component {
+class BowlingBoard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,11 +14,26 @@ class Bowling extends React.Component {
   render() {
     return(
       <div>
-        React
+        Finger Bowling
+        <br /><br />
+        <div>
+          <NumberOfPinsSelection />
+        </div>
+        <br/>
+        <div className="set">
+          <BowlingPin /><BowlingPin /><BowlingPin /><BowlingPin />
+          <div>
+          <BowlingPin /><BowlingPin /><BowlingPin />
+          </div>
+          <BowlingPin /><BowlingPin />
+          <div>
+          <BowlingPin />
+          </div>
+        </div>
       </div>
     )
   }
 }
 
-ReactDOM.render(<Bowling />, document.getElementById('app'));
+ReactDOM.render(<BowlingBoard />, document.getElementById('app'));
 
